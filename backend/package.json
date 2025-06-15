@@ -1,0 +1,19 @@
+{
+  "name": "moodmap-backend",
+  "version": "1.0.0",
+  "description": "Backend do MoodMap - Di\u00e1rio de Humor Geolocalizado",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.4.2",
+    "tsx": "^4.7.0",
+    "typescript": "^5.0.4"
+  }
+}

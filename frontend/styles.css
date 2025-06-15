@@ -1,0 +1,62 @@
+body {
+  background: linear-gradient(#fdc8d3, #c0fbfd);
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding-top: 2rem;
+}
+.container {
+  background-color: #fffafc;
+  padding: 2rem;
+  border-radius: 20px;
+  text-align: center;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  color: #ba68c8;
+  margin-bottom: 1rem;
+}
+select, textarea, button, input[type="file"] {
+  margin-top: 1rem;
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+textarea {
+  resize: none;
+  height: 80px;
+}
+button {
+  background-color: #ba68c8;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover {
+  background-color: #ab47bc;
+}
+#historico {
+  text-align: left;
+  margin-top: 2rem;
+}
+.registro {
+  background: #f3e5f5;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #ba68c8;
+}
+.registro img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 0.5rem;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MoodMap 🌈</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🌈 MoodMap</h1>
+    <p>Como você está se sentindo agora?</p>
+    <select id="humor">
+      <option value="Feliz">😊 Feliz</option>
+      <option value="Ansioso(a)">😰 Ansioso(a)</option>
+      <option value="Cansado(a)">😴 Cansado(a)</option>
+      <option value="Motivado(a)">💪 Motivado(a)</option>
+      <option value="Triste">😢 Triste</option>
+      <option value="Outro">✍️ Outro</option>
+    </select>
+    <textarea id="comentario" placeholder="Escreva algo... (opcional)"></textarea>
+    <input type="file" id="foto" accept="image/*" capture="environment"/>
+    <button onclick="registrarHumor()">Registrar</button>
+    <div id="mensagem"></div>
+
+    <h2>Seu diário 📝</h2>
+    <div id="historico"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
