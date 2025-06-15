@@ -1,6 +1,6 @@
 # 🌈 App-2 React: MoodMap - Diário de Humor Geolocalizado
 
-Aplicativo que permite registrar seu humor, comentário, localização e foto atual. Ideal pra autoconhecimento e organização emocional.
+Aplicativo que permite registrar seu humor, comentário, localização e foto atual (ou não). Ideal pra autoconhecimento e organização emocional.
 
 ## 🛠 Tecnologias
 
